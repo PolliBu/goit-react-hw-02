@@ -1,0 +1,20 @@
+.feedback {
+  padding: 10px 40px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+li:not(:last-child) {
+  margin-bottom: 5px;
+}
+.good {
+  color: green;
+}
+
+.neutral {
+  color: orange;
+}
+
+.bad {
+  color: red;
+}
