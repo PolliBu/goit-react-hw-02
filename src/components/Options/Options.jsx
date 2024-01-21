@@ -1,9 +1,9 @@
-export const Options = () => {
+export const Options = ({ handleClick }) => {
   return (
     <div>
-      <button>Good</button>
-      <button>Neutral</button>
-      <button>Bad</button>
+      <button onClick={() => handleClick('good')}>Good</button>
+      <button onClick={() => handleClick('neutral')}>Neutral</button>
+      <button onClick={() => handleClick('bad')}>Bad</button>
     </div>
   );
 };
